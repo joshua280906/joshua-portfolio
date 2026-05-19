@@ -36,7 +36,7 @@ export default function PortfolioWebsite() {
       />
 
       {/* Navbar */}
-      <nav className="w-full flex justify-between items-center px-8 md:px-20 h-16 md:h-18 border-b border-cyan-400/10 backdrop-blur-md sticky top-0 bg-black/70 z-50">
+      <nav className="w-full flex flex-col md:flex-row justify-center md:justify-between items-center px-5 sm:px-8 md:px-20 py-4 border-b border-cyan-400/10 backdrop-blur-md sticky top-0 bg-black/70 z-50 gap-4 md:gap-0">
 
         <a href="#top" className="inline-flex items-center">
           <img
@@ -46,7 +46,7 @@ export default function PortfolioWebsite() {
           />
         </a>
 
-        <div className="hidden md:flex items-center gap-8 text-zinc-300 text-sm">
+        <div className="flex flex-wrap justify-center md:justify-end items-center gap-4 md:gap-8 text-zinc-300 text-xs sm:text-sm">
 
           <a href="#about" className="hover:text-cyan-400 transition">
             About
@@ -83,7 +83,7 @@ export default function PortfolioWebsite() {
       </nav>
 
       {/* Hero Section */}
-      <section className="min-h-screen flex flex-col lg:flex-row items-center justify-between px-8 md:px-20 py-20 gap-20">
+      <section className="min-h-screen flex flex-col lg:flex-row items-center justify-between px-5 sm:px-8 md:px-20 py-16 md:py-20 gap-14 md:gap-20">
 
         {/* Left Side */}
         <div className="flex-1 max-w-3xl">
@@ -92,7 +92,7 @@ export default function PortfolioWebsite() {
             Cybersecurity • Machine Learning • Linux
           </p>
 
-          <h1 className="text-5xl md:text-7xl font-black leading-tight mb-6">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-black leading-tight mb-6 text-center lg:text-left">
             Hello, my name is
             <br />
             <span className="text-cyan-400 whitespace-nowrap">
@@ -100,7 +100,7 @@ export default function PortfolioWebsite() {
             </span>
           </h1>
 
-          <p className="text-zinc-400 text-lg md:text-xl leading-relaxed max-w-2xl mb-10">
+          <p className="text-zinc-400 text-base sm:text-lg md:text-xl leading-relaxed max-w-2xl mb-10 text-center lg:text-left">
             Cybersecurity enthusiast and machine learning developer with strong
             interests in ethical hacking, Linux systems, networking, and modern
             web technologies. Passionate about building impactful technical
@@ -108,7 +108,7 @@ export default function PortfolioWebsite() {
           </p>
 
           {/* Buttons */}
-          <div className="flex flex-wrap gap-5 mb-10">
+          <div className="flex flex-wrap justify-center lg:justify-start gap-5 mb-10">
 
             <a
               href="/resume.pdf"
@@ -129,7 +129,7 @@ export default function PortfolioWebsite() {
           </div>
 
           {/* Social Icons */}
-          <div className="flex gap-5">
+          <div className="flex justify-center lg:justify-start gap-5">
 
             <a
               href="https://github.com/joshua280906"
@@ -176,13 +176,13 @@ export default function PortfolioWebsite() {
         <div className="flex-1 flex justify-center items-center relative">
 
           {/* Glow Circle */}
-          <div className="absolute w-[350px] h-[350px] md:w-[450px] md:h-[450px] bg-cyan-400 rounded-full blur-[120px] opacity-20" />
+          <div className="absolute w-[250px] h-[250px] sm:w-[350px] sm:h-[350px] md:w-[450px] md:h-[450px] bg-cyan-400 rounded-full blur-[120px] opacity-20" />
 
           {/* Main Circle */}
-          <div className="w-[320px] h-[320px] md:w-[450px] md:h-[450px] rounded-full bg-gradient-to-br from-cyan-400 to-blue-500 flex items-center justify-center relative shadow-2xl shadow-cyan-400/20">
+          <div className="w-[260px] h-[260px] sm:w-[320px] sm:h-[320px] md:w-[450px] md:h-[450px] rounded-full bg-gradient-to-br from-cyan-400 to-blue-500 flex items-center justify-center relative shadow-2xl shadow-cyan-400/20">
 
             {/* Profile Image */}
-            <div className="w-[290px] h-[290px] md:w-[410px] md:h-[410px] rounded-full bg-black border-4 border-cyan-300 overflow-hidden flex items-center justify-center">
+            <div className="w-[230px] h-[230px] sm:w-[290px] sm:h-[290px] md:w-[410px] md:h-[410px] rounded-full bg-black border-4 border-cyan-300 overflow-hidden flex items-center justify-center">
 
               <img
                 src="/profile.png"
@@ -197,13 +197,13 @@ export default function PortfolioWebsite() {
       {/* About Section */}
       <section
         id="about"
-        className="px-8 md:px-20 py-32 border-t border-cyan-400/10 relative overflow-hidden"
+        className="px-5 sm:px-8 md:px-20 py-32 border-t border-cyan-400/10 relative overflow-hidden"
       >
 
         {/* Background Glow */}
         <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-cyan-400/10 blur-[140px]" />
 
-        <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center relative z-10">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 md:gap-20 items-center relative z-10">
 
           {/* Left Side Image */}
           <div className="flex justify-center">
@@ -216,7 +216,7 @@ export default function PortfolioWebsite() {
               {/* Card */}
               <div className="relative bg-zinc-900 border border-cyan-400/30 rounded-3xl p-4 shadow-2xl shadow-cyan-400/10">
 
-                <div className="w-[320px] md:w-[420px] h-[420px] md:h-[520px] rounded-2xl bg-black border border-cyan-400/20 flex items-center justify-center overflow-hidden">
+                <div className="w-[260px] sm:w-[320px] md:w-[420px] h-[360px] sm:h-[420px] md:h-[520px] rounded-2xl bg-black border border-cyan-400/20 flex items-center justify-center overflow-hidden">
 
                   <img
   src="/whoami.png"
@@ -231,7 +231,7 @@ export default function PortfolioWebsite() {
           {/* Right Side Content */}
           <div>
 
-            <h2 className="text-4xl md:text-6xl font-black text-cyan-400 mb-8 leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-black text-cyan-400 mb-8 leading-tight text-center lg:text-left">
               Who I Am <br /> What I Build...
             </h2>
 
@@ -243,7 +243,7 @@ export default function PortfolioWebsite() {
             </p>
 
             {/* Stats */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mb-10">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-5 mb-10">
 
               <div className="bg-zinc-900 border border-cyan-400/20 rounded-2xl p-6 text-center">
                 <h3 className="text-4xl font-black text-cyan-400 mb-2">
@@ -288,7 +288,7 @@ export default function PortfolioWebsite() {
       {/* Experience Section */}
       <section
         id="experience"
-        className="px-8 md:px-20 py-32 border-t border-cyan-400/10 bg-black"
+        className="px-5 sm:px-8 md:px-20 py-32 border-t border-cyan-400/10 bg-black"
       >
 
         <div className="max-w-7xl mx-auto">
@@ -299,7 +299,7 @@ export default function PortfolioWebsite() {
               Career Journey
             </p>
 
-            <h2 className="text-5xl md:text-6xl font-black text-white">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-black text-white">
               Experience &
               <span className="text-cyan-400"> Leadership</span>
             </h2>
@@ -335,7 +335,7 @@ export default function PortfolioWebsite() {
       {/* Projects Section */}
       <section
         id="projects"
-        className="px-8 md:px-20 py-32 border-t border-cyan-400/10 bg-black"
+        className="px-5 sm:px-8 md:px-20 py-32 border-t border-cyan-400/10 bg-black"
       >
 
         <div className="max-w-7xl mx-auto">
@@ -352,7 +352,7 @@ export default function PortfolioWebsite() {
             </h2>
           </div>
 
-          <div className="grid lg:grid-cols-1 gap-10">
+          <div className="grid grid-cols-1 gap-10">
 
             {/* Project 1 */}
             <div className="bg-zinc-900/60 border border-zinc-800 rounded-3xl overflow-hidden">
@@ -405,7 +405,7 @@ export default function PortfolioWebsite() {
       {/* Skills Section */}
       <section
         id="skills"
-        className="px-8 md:px-20 py-32 border-t border-cyan-400/10 bg-black"
+        className="px-5 sm:px-8 md:px-20 py-32 border-t border-cyan-400/10 bg-black"
       >
 
         <div className="max-w-7xl mx-auto">
@@ -422,7 +422,7 @@ export default function PortfolioWebsite() {
             </h2>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
             {/* Skill Card */}
             <div className="bg-zinc-900/60 border border-zinc-800 rounded-3xl p-8">
@@ -479,7 +479,7 @@ export default function PortfolioWebsite() {
       {/* Education Section */}
       <section
         id="education"
-        className="px-8 md:px-20 py-32 border-t border-cyan-400/10 bg-black"
+        className="px-5 sm:px-8 md:px-20 py-32 border-t border-cyan-400/10 bg-black"
       >
 
         <div className="max-w-7xl mx-auto">
@@ -526,7 +526,7 @@ export default function PortfolioWebsite() {
       {/* Certifications Section */}
 <section
   id="certifications"
-  className="px-8 md:px-20 py-32 border-t border-cyan-400/10 relative overflow-hidden bg-black"
+  className="px-5 sm:px-8 md:px-20 py-32 border-t border-cyan-400/10 relative overflow-hidden bg-black"
 >
 
   {/* Background Glow */}
@@ -554,7 +554,7 @@ export default function PortfolioWebsite() {
     </div>
 
     {/* Certification Cards */}
-    <div className="grid lg:grid-cols-2 gap-10">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
 
       {/* Certification Card 1 */}
       <div className="group bg-zinc-900/60 border border-zinc-800 rounded-3xl p-8 hover:border-cyan-400/40 hover:shadow-2xl hover:shadow-cyan-400/10 transition duration-500">
@@ -683,7 +683,7 @@ export default function PortfolioWebsite() {
 {/* Research & Patents Section */}
 <section
   id="research"
-  className="px-8 md:px-20 py-32 border-t border-cyan-400/10 relative overflow-hidden bg-black"
+  className="px-5 sm:px-8 md:px-20 py-32 border-t border-cyan-400/10 relative overflow-hidden bg-black"
 >
 
   {/* Background Glow */}
@@ -818,7 +818,7 @@ export default function PortfolioWebsite() {
       {/* Contact Section */}
 <section
   id="contact"
-  className="px-8 md:px-20 py-32 border-t border-cyan-400/10 relative overflow-hidden bg-black"
+  className="px-5 sm:px-8 md:px-20 py-32 border-t border-cyan-400/10 relative overflow-hidden bg-black"
 >
 
   {/* Background Glow */}
@@ -834,7 +834,7 @@ export default function PortfolioWebsite() {
         Let’s Build Something Great
       </p>
 
-      <h2 className="text-5xl md:text-7xl font-black text-white leading-tight mb-6">
+      <h2 className="text-3xl sm:text-5xl md:text-7xl font-black text-white leading-tight mb-6">
         Get In
         <span className="text-cyan-400"> Touch</span>
       </h2>
@@ -847,7 +847,7 @@ export default function PortfolioWebsite() {
     </div>
 
     {/* Main Grid */}
-    <div className="grid lg:grid-cols-2 gap-12 items-start">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
 
       {/* Left Side - Contact Cards */}
       <div className="space-y-8">
@@ -865,7 +865,7 @@ export default function PortfolioWebsite() {
             {/* Content */}
             <div>
 
-              <h3 className="text-3xl font-black text-white mb-3">
+              <h3 className="text-2xl md:text-3xl font-black text-white mb-3">
                 Email
               </h3>
 
@@ -897,7 +897,7 @@ export default function PortfolioWebsite() {
             {/* Content */}
             <div>
 
-              <h3 className="text-3xl font-black text-white mb-3">
+              <h3 className="text-2xl md:text-3xl font-black text-white mb-3">
                 GitHub
               </h3>
 
@@ -931,7 +931,7 @@ export default function PortfolioWebsite() {
             {/* Content */}
             <div>
 
-              <h3 className="text-3xl font-black text-white mb-3">
+              <h3 className="text-2xl md:text-3xl font-black text-white mb-3">
                 LinkedIn
               </h3>
 
@@ -954,7 +954,7 @@ export default function PortfolioWebsite() {
       </div>
 
       {/* Right Side - Contact Form */}
-      <div className="bg-zinc-900/60 border border-zinc-800 rounded-[2rem] p-10 hover:border-cyan-400/30 hover:shadow-2xl hover:shadow-cyan-400/10 transition duration-500">
+      <div className="bg-zinc-900/60 border border-zinc-800 rounded-[2rem] p-6 sm:p-8 md:p-10 hover:border-cyan-400/30 hover:shadow-2xl hover:shadow-cyan-400/10 transition duration-500">
 
         <h3 className="text-4xl font-black text-white mb-8">
           Send A Message
@@ -1037,7 +1037,7 @@ export default function PortfolioWebsite() {
 </section>
 
       {/* Footer */}
-      <footer className="border-t border-cyan-400/10 py-8 text-center text-zinc-500 text-sm">
+      <footer className="border-t border-cyan-400/10 py-8 px-5 text-center text-zinc-500 text-xs sm:text-sm">
         © 2026 Jenis Joshua Thomas M. All rights reserved.
       </footer>
     </div>
