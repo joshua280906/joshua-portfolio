@@ -89,7 +89,7 @@ export default function PortfolioWebsite() {
         <div className="flex-1 max-w-3xl">
 
           <p className="uppercase tracking-[0.3em] text-cyan-400 text-sm mb-6">
-            Cybersecurity • Machine Learning • Linux
+           • Cybersecurity • Machine Learning • Linux
           </p>
 
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-black leading-tight mb-6 text-center lg:text-left">
