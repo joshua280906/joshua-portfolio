@@ -83,7 +83,7 @@ export default function PortfolioWebsite() {
       </nav>
 
       {/* Hero Section */}
-      <section className="min-h-screen flex flex-col lg:flex-row items-center justify-between px-5 sm:px-8 md:px-20 py-16 md:py-20 gap-14 md:gap-20">
+      <section className="min-h-screen flex flex-col lg:flex-row items-center justify-center lg:justify-between px-5 sm:px-8 md:px-20 py-12 md:py-20 gap-8 md:gap-20">
 
         {/* Left Side */}
         <div className="flex-1 max-w-3xl">
