@@ -505,7 +505,7 @@ export default function PortfolioWebsite() {
               <div className="bg-zinc-900/60 border border-zinc-800 rounded-3xl p-8">
 
                 <h3 className="text-3xl font-black text-white mb-2">
-                  Bachelor of Technology
+                  Bachelor of Engineering
                 </h3>
 
                 <p className="text-cyan-400 font-semibold mb-4">
