@@ -46,7 +46,7 @@ export default function PortfolioWebsite() {
           />
         </a>
 
-        <div className="flex flex-wrap justify-center md:justify-end items-center gap-4 md:gap-8 text-zinc-300 text-xs sm:text-sm">
+        <div className="flex hidden md:flex justify-center md:justify-end items-center gap-4 md:gap-8 text-zinc-300 text-xs sm:text-sm">
 
           <a href="#about" className="hover:text-cyan-400 transition">
             About
@@ -83,7 +83,7 @@ export default function PortfolioWebsite() {
       </nav>
 
       {/* Hero Section */}
-      <section className="min-h-screen flex flex-col lg:flex-row items-center justify-center lg:justify-between px-5 sm:px-8 md:px-20 py-12 md:py-20 gap-8 md:gap-20">
+      <section className="min-h-screen flex flex-col lg:flex-row items-center justify-center lg:justify-between px-5 sm:px-8 md:px-20 py-8 md:py-20 gap-4 md:gap-20">
 
         {/* Left Side */}
         <div className="flex-1 max-w-3xl">
@@ -100,7 +100,7 @@ export default function PortfolioWebsite() {
             </span>
           </h1>
 
-          <p className="text-zinc-400 text-base sm:text-lg md:text-xl leading-relaxed max-w-2xl mb-10 text-center lg:text-left">
+          <p className="text-zinc-400 text-base sm:text-lg md:text-xl leading-relaxed max-w-xl mx-auto lg:mx-0 mb-10 text-center lg:text-left">
             Cybersecurity enthusiast and machine learning developer with strong
             interests in ethical hacking, Linux systems, networking, and modern
             web technologies. Passionate about building impactful technical
@@ -197,7 +197,7 @@ export default function PortfolioWebsite() {
       {/* About Section */}
       <section
         id="about"
-        className="px-5 sm:px-8 md:px-20 py-32 border-t border-cyan-400/10 relative overflow-hidden"
+        className="px-5 sm:px-8 md:px-20 py-20 md:py-32 border-t border-cyan-400/10 relative overflow-hidden"
       >
 
         {/* Background Glow */}
@@ -288,12 +288,12 @@ export default function PortfolioWebsite() {
       {/* Experience Section */}
       <section
         id="experience"
-        className="px-5 sm:px-8 md:px-20 py-32 border-t border-cyan-400/10 bg-black"
+        className="px-5 sm:px-8 md:px-20 py-20 md:py-32 border-t border-cyan-400/10 bg-black"
       >
 
         <div className="max-w-7xl mx-auto">
 
-          <div className="mb-20">
+          <div className="mb-12 md:mb-20">
 
             <p className="uppercase tracking-[0.3em] text-cyan-400 text-sm mb-4">
               Career Journey
@@ -335,12 +335,12 @@ export default function PortfolioWebsite() {
       {/* Projects Section */}
       <section
         id="projects"
-        className="px-5 sm:px-8 md:px-20 py-32 border-t border-cyan-400/10 bg-black"
+        className="px-5 sm:px-8 md:px-20 py-20 md:py-32 border-t border-cyan-400/10 bg-black"
       >
 
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-6xl mx-auto">
 
-          <div className="mb-20">
+          <div className="mb-12 md:mb-20">
 
             <p className="uppercase tracking-[0.3em] text-cyan-400 text-sm mb-4">
               Featured Work
@@ -405,12 +405,12 @@ export default function PortfolioWebsite() {
       {/* Skills Section */}
       <section
         id="skills"
-        className="px-5 sm:px-8 md:px-20 py-32 border-t border-cyan-400/10 bg-black"
+        className="px-5 sm:px-8 md:px-20 py-20 md:py-32 border-t border-cyan-400/10 bg-black"
       >
 
         <div className="max-w-7xl mx-auto">
 
-          <div className="mb-20">
+          <div className="mb-12 md:mb-20">
 
             <p className="uppercase tracking-[0.3em] text-cyan-400 text-sm mb-4">
               Technical Expertise
@@ -479,12 +479,12 @@ export default function PortfolioWebsite() {
       {/* Education Section */}
       <section
         id="education"
-        className="px-5 sm:px-8 md:px-20 py-32 border-t border-cyan-400/10 bg-black"
+        className="px-5 sm:px-8 md:px-20 py-20 md:py-32 border-t border-cyan-400/10 bg-black"
       >
 
         <div className="max-w-7xl mx-auto">
 
-          <div className="mb-20">
+          <div className="mb-12 md:mb-20">
 
             <p className="uppercase tracking-[0.3em] text-cyan-400 text-sm mb-4">
               Academic Journey
@@ -526,7 +526,7 @@ export default function PortfolioWebsite() {
       {/* Certifications Section */}
 <section
   id="certifications"
-  className="px-5 sm:px-8 md:px-20 py-32 border-t border-cyan-400/10 relative overflow-hidden bg-black"
+  className="px-5 sm:px-8 md:px-20 py-20 md:py-32 border-t border-cyan-400/10 relative overflow-hidden bg-black"
 >
 
   {/* Background Glow */}
@@ -535,7 +535,7 @@ export default function PortfolioWebsite() {
   <div className="max-w-7xl mx-auto relative z-10">
 
     {/* Heading */}
-    <div className="mb-20">
+    <div className="mb-12 md:mb-20">
 
       <p className="uppercase tracking-[0.3em] text-cyan-400 text-sm mb-4">
         Achievements & Recognition
@@ -683,7 +683,7 @@ export default function PortfolioWebsite() {
 {/* Research & Patents Section */}
 <section
   id="research"
-  className="px-5 sm:px-8 md:px-20 py-32 border-t border-cyan-400/10 relative overflow-hidden bg-black"
+  className="px-5 sm:px-8 md:px-20 py-20 md:py-32 border-t border-cyan-400/10 relative overflow-hidden bg-black"
 >
 
   {/* Background Glow */}
@@ -692,7 +692,7 @@ export default function PortfolioWebsite() {
   <div className="max-w-7xl mx-auto relative z-10">
 
     {/* Heading */}
-    <div className="mb-20">
+    <div className="mb-12 md:mb-20">
 
       <p className="uppercase tracking-[0.3em] text-cyan-400 text-sm mb-4">
         Innovation & Exploration
@@ -735,7 +735,7 @@ export default function PortfolioWebsite() {
         </div>
 
         {/* Content */}
-        <div className="p-10">
+        <div className="p-6 md:p-10">
 
           <p className="text-zinc-400 text-lg leading-relaxed mb-8">
             Research and patent-oriented Detection of Pneumonia and Tuberculosis from Chest X-ray Images Using Deep Learning with a  Streamlit Interface 
@@ -818,7 +818,7 @@ export default function PortfolioWebsite() {
       {/* Contact Section */}
 <section
   id="contact"
-  className="px-5 sm:px-8 md:px-20 py-32 border-t border-cyan-400/10 relative overflow-hidden bg-black"
+  className="px-5 sm:px-8 md:px-20 py-20 md:py-32 border-t border-cyan-400/10 relative overflow-hidden bg-black"
 >
 
   {/* Background Glow */}
@@ -828,7 +828,7 @@ export default function PortfolioWebsite() {
   <div className="max-w-7xl mx-auto relative z-10">
 
     {/* Heading */}
-    <div className="text-center mb-24">
+    <div className="text-center mb-12 md:mb-24">
 
       <p className="uppercase tracking-[0.3em] text-cyan-400 text-sm mb-4">
         Let’s Build Something Great
@@ -847,7 +847,7 @@ export default function PortfolioWebsite() {
     </div>
 
     {/* Main Grid */}
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-start">
 
       {/* Left Side - Contact Cards */}
       <div className="space-y-8">
@@ -954,7 +954,7 @@ export default function PortfolioWebsite() {
       </div>
 
       {/* Right Side - Contact Form */}
-      <div className="bg-zinc-900/60 border border-zinc-800 rounded-[2rem] p-6 sm:p-8 md:p-10 hover:border-cyan-400/30 hover:shadow-2xl hover:shadow-cyan-400/10 transition duration-500">
+      <div className="bg-zinc-900/60 border border-zinc-800 rounded-3xl p-6 sm:p-8 md:p-10 hover:border-cyan-400/30 hover:shadow-2xl hover:shadow-cyan-400/10 transition duration-500">
 
         <h3 className="text-4xl font-black text-white mb-8">
           Send A Message
@@ -1037,7 +1037,7 @@ export default function PortfolioWebsite() {
 </section>
 
       {/* Footer */}
-      <footer className="border-t border-cyan-400/10 py-8 px-5 text-center text-zinc-500 text-xs sm:text-sm">
+      <footer className="border-t border-cyan-400/10 py-5 px-5 text-center text-zinc-500 text-xs sm:text-sm">
         © 2026 Jenis Joshua Thomas M. All rights reserved.
       </footer>
     </div>
